@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GZGQfPeyO/ifomPR7VhsxR6Pf14SR3MuIxFkAkScws4=",
+  "Source": "TicketMaster_API",
+  "BasePath": "_content/TicketMaster_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

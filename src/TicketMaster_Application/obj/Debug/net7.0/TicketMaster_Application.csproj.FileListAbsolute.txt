@@ -1,0 +1,17 @@
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Application.deps.json
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Application.dll
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Application.pdb
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Domain.dll
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Infra.Data.dll
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Domain.pdb
+E:\TicketMaster\src\TicketMaster_Application\bin\Debug\net7.0\TicketMaster_Infra.Data.pdb
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.csproj.AssemblyReference.cache
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.AssemblyInfoInputs.cache
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.AssemblyInfo.cs
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.csproj.CoreCompileInputs.cache
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.csproj.CopyComplete
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.dll
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\refint\TicketMaster_Application.dll
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\TicketMaster_Application.pdb
+E:\TicketMaster\src\TicketMaster_Application\obj\Debug\net7.0\ref\TicketMaster_Application.dll
