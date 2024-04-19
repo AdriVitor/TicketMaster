@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.Serialization;
-using TicketMaster_Domain.Abstract;
+﻿using TicketMaster_Domain.Abstract;
 using TicketMaster_Domain.Entities.Enums;
 using TicketMaster_Domain.Validations;
 
@@ -18,21 +16,6 @@ namespace TicketMaster_Domain.Entities;
     public Event()
     {
         
-    }
-
-    public Event(string name, string description, EnumFederativeUnit federativeUnit, DateTime date, int totalAmount)
-    {
-        DomainExceptionValidation.When(name == null, "O campo nome é obrigatório");
-        DomainExceptionValidation.When(description == null, "O campo descrição é obrigatório");
-        DomainExceptionValidation.When((int)federativeUnit < 0 || (int)federativeUnit > 26, "Escolha uma unidade federativa válida");
-        DomainExceptionValidation.When(date < DateTime.Now, "Digite uma data válida");
-        DomainExceptionValidation.When(totalAmount < 0, "Digite uma quantidade válida de pessoas suportadas no evento");
-
-        Name = name;
-        Description = description;
-        FederativeUnit = federativeUnit;
-        Date = date;
-        TotalAmount = totalAmount;
     }
 
     public static Event Create(int id, int producerId, string name, string description, EnumFederativeUnit federativeUnit, DateTime date, int totalAmount)
@@ -58,7 +41,7 @@ namespace TicketMaster_Domain.Entities;
     }
 
     public void CurrentQuantityTicketInitial(int totalAmount) {
-        CurrentQuantityTickets = TotalAmount;
+        CurrentQuantityTickets = totalAmount;
     }
 }
 

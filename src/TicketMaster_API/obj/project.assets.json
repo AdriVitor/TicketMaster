@@ -3279,19 +3279,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\adriano.araujo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TicketMaster\\src\\TicketMaster_API\\TicketMaster_API.csproj",
+      "projectUniqueName": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_API\\TicketMaster_API.csproj",
       "projectName": "TicketMaster_API",
-      "projectPath": "E:\\TicketMaster\\src\\TicketMaster_API\\TicketMaster_API.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\TicketMaster\\src\\TicketMaster_API\\obj\\",
+      "projectPath": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_API\\TicketMaster_API.csproj",
+      "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3299,14 +3304,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/WAYDS/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\TicketMaster\\src\\TicketMaster_Infra.Ioc\\TicketMaster_Infra.Ioc.csproj": {
-              "projectPath": "E:\\TicketMaster\\src\\TicketMaster_Infra.Ioc\\TicketMaster_Infra.Ioc.csproj"
+            "D:\\Projetos\\TicketMaster\\src\\TicketMaster_Infra.Ioc\\TicketMaster_Infra.Ioc.csproj": {
+              "projectPath": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_Infra.Ioc\\TicketMaster_Infra.Ioc.csproj"
             }
           }
         }
@@ -3353,7 +3361,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

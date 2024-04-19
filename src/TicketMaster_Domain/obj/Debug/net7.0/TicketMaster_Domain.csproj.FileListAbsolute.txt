@@ -10,3 +10,15 @@ E:\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.dll
 E:\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\refint\TicketMaster_Domain.dll
 E:\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.pdb
 e:\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\ref\TicketMaster_Domain.dll
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\bin\Debug\net7.0\TicketMaster_Domain.deps.json
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\bin\Debug\net7.0\TicketMaster_Domain.dll
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\bin\Debug\net7.0\TicketMaster_Domain.pdb
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.csproj.AssemblyReference.cache
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.AssemblyInfoInputs.cache
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.AssemblyInfo.cs
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.dll
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\refint\TicketMaster_Domain.dll
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\TicketMaster_Domain.pdb
+D:\Projetos\TicketMaster\src\TicketMaster_Domain\obj\Debug\net7.0\ref\TicketMaster_Domain.dll

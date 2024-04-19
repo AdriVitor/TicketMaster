@@ -32,12 +32,6 @@ public class ProducerService : IProducerService {
         var producer = _mapper.Map<Producer>(producerDTO);
         await _producerRepository.Add(producer);
 
-        /*var SubjectAndBodyEmail = _emailService.DefaultSujectAndEmailNewUser(producer.Name);
-        var subjectEmail = SubjectAndBodyEmail.Keys.First();
-        var bodyEmail = SubjectAndBodyEmail.Values.First();
-
-        _emailService.SendEmail(producer.Email, subjectEmail, bodyEmail);*/
-
         _emailService.SendEmailNewUser(producer.Name, producer.Email);
     }
 

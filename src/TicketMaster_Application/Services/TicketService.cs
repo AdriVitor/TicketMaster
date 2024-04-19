@@ -106,8 +106,7 @@ public class TicketService : ITicketService {
         await _ticketRepository.Delete(ticket);
 
         var @event = await _eventService.GetById(ticket.Id);
-        var eventDTO = _mapper.Map<EventCreateDTO>(@event);
-        eventDTO.CurrentQuantityTickets += 1;
+        var eventDTO = await CalculateTicketQuantityOperation(@event.Id, EnumOperationType.Addition);
 
         await _eventService.Update(eventDTO);
     }

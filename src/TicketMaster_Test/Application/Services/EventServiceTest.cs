@@ -7,6 +7,7 @@ using TicketMaster_Application.Services;
 using TicketMaster_Domain.Entities;
 using TicketMaster_Domain.Entities.Enums;
 using TicketMaster_Infra.Data.Interfaces;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace TicketMaster_Test.Application.Services;
 public class EventServiceTest {
@@ -170,13 +171,10 @@ public class EventServiceTest {
     }
 
     public static Event ConvertEventReadDTOInEvent(EventReadDTO eventReadDTO) {
-        var @event = new Event(eventReadDTO.Name, eventReadDTO.Description, eventReadDTO.FederativeUnit, eventReadDTO.Date, eventReadDTO.TotalAmount);
-        return @event;
+        return Event.Create(eventReadDTO.Id, 2, eventReadDTO.Name, eventReadDTO.Description, eventReadDTO.FederativeUnit, eventReadDTO.Date, eventReadDTO.TotalAmount);
     }
-
     public static Event ConvertEventCreateDTOInEvent(EventCreateDTO eventCreateDTO) {
-        var @event = new Event(eventCreateDTO.Name, eventCreateDTO.Description, eventCreateDTO.FederativeUnit, eventCreateDTO.Date, eventCreateDTO.TotalAmount);
-        return @event;
+        return Event.Create(eventCreateDTO.Id, 2, eventCreateDTO.Name, eventCreateDTO.Description, eventCreateDTO.FederativeUnit, eventCreateDTO.Date, eventCreateDTO.TotalAmount);
     }
 }
 

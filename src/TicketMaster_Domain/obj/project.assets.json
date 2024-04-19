@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\adriano.araujo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\TicketMaster\\src\\TicketMaster_Domain\\TicketMaster_Domain.csproj",
+      "projectUniqueName": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_Domain\\TicketMaster_Domain.csproj",
       "projectName": "TicketMaster_Domain",
-      "projectPath": "e:\\TicketMaster\\src\\TicketMaster_Domain\\TicketMaster_Domain.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "e:\\TicketMaster\\src\\TicketMaster_Domain\\obj\\",
+      "projectPath": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_Domain\\TicketMaster_Domain.csproj",
+      "packagesPath": "C:\\Users\\adriano.araujo\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\TicketMaster\\src\\TicketMaster_Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adriano.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +33,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/WAYDS/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -61,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

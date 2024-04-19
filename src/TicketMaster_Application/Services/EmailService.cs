@@ -63,29 +63,5 @@ public class EmailService : IEmailService {
                 return subjectAndBody.FirstOrDefault();
         }
     }
-
-    public Dictionary<string, string> DefaultSujectAndEmailNewUser(string userName) {
-        var subjectAndBody = new Dictionary<string, string>() {
-                                    { "Ticket Master", $"Olá {userName}, Seja bem-vindo ao Ticket Master." }
-                                 };
-
-        return subjectAndBody;
-    }
-
-    public Dictionary<string, string> DefaultSujectAndEmailNewEvent(string eventName) {
-        var subjectAndBody = new Dictionary<string, string>() {
-                                    { "Novo Evento Ticket Master", $"{eventName} cadastrado com sucesso." }
-                                 };
-
-        return subjectAndBody;
-    }
-
-    public Dictionary<string, string> DefaultSujectAndEmailNewTicketCustomer(string userName, string eventName) {
-        var subjectAndBody = new Dictionary<string, string>() {
-                                    { "Novo Ingresso - Ticket Master", $"Olá {userName}, Parabéns para a compra do(s) ingresso(s) para o evento {eventName}" }
-                                 };
-
-        return subjectAndBody;
-    }
 }
 

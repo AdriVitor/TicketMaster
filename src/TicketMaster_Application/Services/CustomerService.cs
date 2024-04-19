@@ -31,14 +31,6 @@ public class CustomerService : ICustomerService {
         var customer = _mapper.Map<Customer>(customerDTO);
         await _customerRepository.Add(customer);
 
-        /*var SubjectAndBodyEmail = _emailService.DefaultSujectAndEmailNewUser(customerDTO.Name);
-        var subjectEmail = SubjectAndBodyEmail.Keys.FirstOrDefault();
-        var bodyEmail = SubjectAndBodyEmail.Values.FirstOrDefault();
-
-        _emailService.SendEmail(customerDTO.Email, subjectEmail, bodyEmail);
-
-        await SendEmailNewUser(customerDTO.Name, customerDTO.Email);*/
-
         _emailService.SendEmailNewUser(customerDTO.Name, customerDTO.Email);
 
         return customer;
