@@ -45,7 +45,7 @@
     <li>Clean Architecture</li>
 </ul>
 
-## Design Patterns Utilizados
+## Patterns Utilizados
 
 <ul>
     <li>Repository Pattern</li>
